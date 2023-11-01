@@ -47,7 +47,7 @@ app.post("/group", async (req, res) => {
   res.redirect("/group");
 });
 
-server.listen(3001, async () => {
+server.listen(3000, async () => {
   console.log("listening on port 3000");
   await connect();
   console.log("DB connected");
